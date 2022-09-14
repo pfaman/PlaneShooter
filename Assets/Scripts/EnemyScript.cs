@@ -57,6 +57,7 @@ public class EnemyScript : MonoBehaviour
     }
     IEnumerator EnemyShooting()
     {
+        //
         while (true)
         {
             yield return new WaitForSeconds(enemyBulletSpawnTime);
